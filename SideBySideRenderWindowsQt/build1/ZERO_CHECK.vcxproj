@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{72BEBED6-2F39-44CE-A2EA-02E9DB8847CB}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:/Thesis/VTK5.10.1_Build1;E:/Thesis/VTK5.10.1_Build1/Common;E:/Thesis/VTK5.10.1_Build1/Utilities;E:/Thesis/VTK5.10.1_Build1/VolumeRendering;E:/Thesis/VTK5.10.1_Build1/Rendering;E:/Thesis/VTK5.10.1_Build1/Charts;E:/Thesis/VTK5.10.1_Build1/Chemistry;E:/Thesis/VTK5.10.1_Build1/Utilities/vtkalglib;E:/Thesis/VTK5.10.1/Infovis;E:/Thesis/VTK5.10.1/Geovis;E:/Thesis/VTK5.10.1/Views;E:/Thesis/VTK5.10.1/VolumeRendering;E:/Thesis/VTK5.10.1/Hybrid;E:/Thesis/VTK5.10.1/Widgets;E:/Thesis/VTK5.10.1/Rendering;E:/Thesis/VTK5.10.1/Charts;E:/Thesis/VTK5.10.1/Chemistry;E:/Thesis/VTK5.10.1/Rendering/Testing/Cxx;E:/Thesis/VTK5.10.1/IO;E:/Thesis/VTK5.10.1/Imaging;E:/Thesis/VTK5.10.1/Graphics;E:/Thesis/VTK5.10.1/GenericFiltering;E:/Thesis/VTK5.10.1/Filtering;E:/Thesis/VTK5.10.1/Common;E:/Thesis/VTK5.10.1/Utilities;E:/Thesis/VTK5.10.1/Common/Testing/Cxx;E:/Thesis/VTK5.10.1_Build1/Utilities/vtknetcdf;E:/Thesis/VTK5.10.1/Utilities/vtknetcdf;E:/Thesis/VTK5.10.1/Utilities/vtknetcdf/include;E:/Thesis/VTK5.10.1_Build1/Utilities/vtklibproj4;E:/Thesis/VTK5.10.1/Utilities/vtklibproj4;E:/Thesis/VTK5.10.1_Build1/Utilities/DICOMParser;E:/Thesis/VTK5.10.1/Utilities/DICOMParser;E:/Thesis/VTK5.10.1_Build1/Utilities/vtkfreetype/include;E:/Thesis/VTK5.10.1/Utilities/vtkfreetype/include;E:/Thesis/VTK5.10.1_Build1/Utilities/LSDyna;E:/Thesis/VTK5.10.1/Utilities/LSDyna;E:/Thesis/VTK5.10.1_Build1/Utilities/MaterialLibrary;E:/Thesis/VTK5.10.1/Utilities/MaterialLibrary;E:/Thesis/VTK5.10.1_Build1/Utilities/vtkmetaio;E:/Thesis/VTK5.10.1/Utilities/vtkmetaio;E:/Thesis/VTK5.10.1_Build1/Utilities/verdict;E:/Thesis/VTK5.10.1/Utilities/verdict;E:/Thesis/VTK5.10.1_Build1/Utilities/vtkhdf5;E:/Thesis/VTK5.10.1/Utilities/vtkhdf5;E:/Thesis/VTK5.10.1_Build1/Utilities/vtkhdf5/src;E:/Thesis/VTK5.10.1/Utilities/vtkhdf5/src;E:/Thesis/VTK5.10.1_Build1/Utilities/vtkhdf5/hl/src;E:/Thesis/VTK5.10.1/Utilities/vtkhdf5/hl/src;E:/Thesis/VTK5.10.1/Utilities/utf8/source;E:/Thesis/VTK5.10.1/GUISupport/Qt;E:/Thesis/VTK5.10.1_Build1/GUISupport/Qt;E:/Thesis/VTK5.10.1/GUISupport/Qt/Chart;E:/Thesis/VTK5.10.1_Build1/GUISupport/Qt/Chart;E:/Thesis/VTK5.10.1/Utilities/vtkalglib;C:/Qt/qt-4.8.5-x64-msvc2010/include;C:/Qt/qt-4.8.5-x64-msvc2010/include/QtGui;C:/Qt/qt-4.8.5-x64-msvc2010/include/QtCore;E:/Semester III/SideBySideRenderWindowsQt;E:/Semester III/SideBySideRenderWindowsQt/build1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:/Thesis/VTK5.10.1_Build1;E:/Thesis/VTK5.10.1_Build1/Common;E:/Thesis/VTK5.10.1_Build1/Utilities;E:/Thesis/VTK5.10.1_Build1/VolumeRendering;E:/Thesis/VTK5.10.1_Build1/Rendering;E:/Thesis/VTK5.10.1_Build1/Charts;E:/Thesis/VTK5.10.1_Build1/Chemistry;E:/Thesis/VTK5.10.1_Build1/Utilities/vtkalglib;E:/Thesis/VTK5.10.1/Infovis;E:/Thesis/VTK5.10.1/Geovis;E:/Thesis/VTK5.10.1/Views;E:/Thesis/VTK5.10.1/VolumeRendering;E:/Thesis/VTK5.10.1/Hybrid;E:/Thesis/VTK5.10.1/Widgets;E:/Thesis/VTK5.10.1/Rendering;E:/Thesis/VTK5.10.1/Charts;E:/Thesis/VTK5.10.1/Chemistry;E:/Thesis/VTK5.10.1/Rendering/Testing/Cxx;E:/Thesis/VTK5.10.1/IO;E:/Thesis/VTK5.10.1/Imaging;E:/Thesis/VTK5.10.1/Graphics;E:/Thesis/VTK5.10.1/GenericFiltering;E:/Thesis/VTK5.10.1/Filtering;E:/Thesis/VTK5.10.1/Common;E:/Thesis/VTK5.10.1/Utilities;E:/Thesis/VTK5.10.1/Common/Testing/Cxx;E:/Thesis/VTK5.10.1_Build1/Utilities/vtknetcdf;E:/Thesis/VTK5.10.1/Utilities/vtknetcdf;E:/Thesis/VTK5.10.1/Utilities/vtknetcdf/include;E:/Thesis/VTK5.10.1_Build1/Utilities/vtklibproj4;E:/Thesis/VTK5.10.1/Utilities/vtklibproj4;E:/Thesis/VTK5.10.1_Build1/Utilities/DICOMParser;E:/Thesis/VTK5.10.1/Utilities/DICOMParser;E:/Thesis/VTK5.10.1_Build1/Utilities/vtkfreetype/include;E:/Thesis/VTK5.10.1/Utilities/vtkfreetype/include;E:/Thesis/VTK5.10.1_Build1/Utilities/LSDyna;E:/Thesis/VTK5.10.1/Utilities/LSDyna;E:/Thesis/VTK5.10.1_Build1/Utilities/MaterialLibrary;E:/Thesis/VTK5.10.1/Utilities/MaterialLibrary;E:/Thesis/VTK5.10.1_Build1/Utilities/vtkmetaio;E:/Thesis/VTK5.10.1/Utilities/vtkmetaio;E:/Thesis/VTK5.10.1_Build1/Utilities/verdict;E:/Thesis/VTK5.10.1/Utilities/verdict;E:/Thesis/VTK5.10.1_Build1/Utilities/vtkhdf5;E:/Thesis/VTK5.10.1/Utilities/vtkhdf5;E:/Thesis/VTK5.10.1_Build1/Utilities/vtkhdf5/src;E:/Thesis/VTK5.10.1/Utilities/vtkhdf5/src;E:/Thesis/VTK5.10.1_Build1/Utilities/vtkhdf5/hl/src;E:/Thesis/VTK5.10.1/Utilities/vtkhdf5/hl/src;E:/Thesis/VTK5.10.1/Utilities/utf8/source;E:/Thesis/VTK5.10.1/GUISupport/Qt;E:/Thesis/VTK5.10.1_Build1/GUISupport/Qt;E:/Thesis/VTK5.10.1/GUISupport/Qt/Chart;E:/Thesis/VTK5.10.1_Build1/GUISupport/Qt/Chart;E:/Thesis/VTK5.10.1/Utilities/vtkalglib;C:/Qt/qt-4.8.5-x64-msvc2010/include;C:/Qt/qt-4.8.5-x64-msvc2010/include/QtGui;C:/Qt/qt-4.8.5-x64-msvc2010/include/QtCore;E:/Semester III/SideBySideRenderWindowsQt;E:/Semester III/SideBySideRenderWindowsQt/build1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:/Thesis/VTK5.10.1_Build1;E:/Thesis/VTK5.10.1_Build1/Common;E:/Thesis/VTK5.10.1_Build1/Utilities;E:/Thesis/VTK5.10.1_Build1/VolumeRendering;E:/Thesis/VTK5.10.1_Build1/Rendering;E:/Thesis/VTK5.10.1_Build1/Charts;E:/Thesis/VTK5.10.1_Build1/Chemistry;E:/Thesis/VTK5.10.1_Build1/Utilities/vtkalglib;E:/Thesis/VTK5.10.1/Infovis;E:/Thesis/VTK5.10.1/Geovis;E:/Thesis/VTK5.10.1/Views;E:/Thesis/VTK5.10.1/VolumeRendering;E:/Thesis/VTK5.10.1/Hybrid;E:/Thesis/VTK5.10.1/Widgets;E:/Thesis/VTK5.10.1/Rendering;E:/Thesis/VTK5.10.1/Charts;E:/Thesis/VTK5.10.1/Chemistry;E:/Thesis/VTK5.10.1/Rendering/Testing/Cxx;E:/Thesis/VTK5.10.1/IO;E:/Thesis/VTK5.10.1/Imaging;E:/Thesis/VTK5.10.1/Graphics;E:/Thesis/VTK5.10.1/GenericFiltering;E:/Thesis/VTK5.10.1/Filtering;E:/Thesis/VTK5.10.1/Common;E:/Thesis/VTK5.10.1/Utilities;E:/Thesis/VTK5.10.1/Common/Testing/Cxx;E:/Thesis/VTK5.10.1_Build1/Utilities/vtknetcdf;E:/Thesis/VTK5.10.1/Utilities/vtknetcdf;E:/Thesis/VTK5.10.1/Utilities/vtknetcdf/include;E:/Thesis/VTK5.10.1_Build1/Utilities/vtklibproj4;E:/Thesis/VTK5.10.1/Utilities/vtklibproj4;E:/Thesis/VTK5.10.1_Build1/Utilities/DICOMParser;E:/Thesis/VTK5.10.1/Utilities/DICOMParser;E:/Thesis/VTK5.10.1_Build1/Utilities/vtkfreetype/include;E:/Thesis/VTK5.10.1/Utilities/vtkfreetype/include;E:/Thesis/VTK5.10.1_Build1/Utilities/LSDyna;E:/Thesis/VTK5.10.1/Utilities/LSDyna;E:/Thesis/VTK5.10.1_Build1/Utilities/MaterialLibrary;E:/Thesis/VTK5.10.1/Utilities/MaterialLibrary;E:/Thesis/VTK5.10.1_Build1/Utilities/vtkmetaio;E:/Thesis/VTK5.10.1/Utilities/vtkmetaio;E:/Thesis/VTK5.10.1_Build1/Utilities/verdict;E:/Thesis/VTK5.10.1/Utilities/verdict;E:/Thesis/VTK5.10.1_Build1/Utilities/vtkhdf5;E:/Thesis/VTK5.10.1/Utilities/vtkhdf5;E:/Thesis/VTK5.10.1_Build1/Utilities/vtkhdf5/src;E:/Thesis/VTK5.10.1/Utilities/vtkhdf5/src;E:/Thesis/VTK5.10.1_Build1/Utilities/vtkhdf5/hl/src;E:/Thesis/VTK5.10.1/Utilities/vtkhdf5/hl/src;E:/Thesis/VTK5.10.1/Utilities/utf8/source;E:/Thesis/VTK5.10.1/GUISupport/Qt;E:/Thesis/VTK5.10.1_Build1/GUISupport/Qt;E:/Thesis/VTK5.10.1/GUISupport/Qt/Chart;E:/Thesis/VTK5.10.1_Build1/GUISupport/Qt/Chart;E:/Thesis/VTK5.10.1/Utilities/vtkalglib;C:/Qt/qt-4.8.5-x64-msvc2010/include;C:/Qt/qt-4.8.5-x64-msvc2010/include/QtGui;C:/Qt/qt-4.8.5-x64-msvc2010/include/QtCore;E:/Semester III/SideBySideRenderWindowsQt;E:/Semester III/SideBySideRenderWindowsQt/build1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:/Thesis/VTK5.10.1_Build1;E:/Thesis/VTK5.10.1_Build1/Common;E:/Thesis/VTK5.10.1_Build1/Utilities;E:/Thesis/VTK5.10.1_Build1/VolumeRendering;E:/Thesis/VTK5.10.1_Build1/Rendering;E:/Thesis/VTK5.10.1_Build1/Charts;E:/Thesis/VTK5.10.1_Build1/Chemistry;E:/Thesis/VTK5.10.1_Build1/Utilities/vtkalglib;E:/Thesis/VTK5.10.1/Infovis;E:/Thesis/VTK5.10.1/Geovis;E:/Thesis/VTK5.10.1/Views;E:/Thesis/VTK5.10.1/VolumeRendering;E:/Thesis/VTK5.10.1/Hybrid;E:/Thesis/VTK5.10.1/Widgets;E:/Thesis/VTK5.10.1/Rendering;E:/Thesis/VTK5.10.1/Charts;E:/Thesis/VTK5.10.1/Chemistry;E:/Thesis/VTK5.10.1/Rendering/Testing/Cxx;E:/Thesis/VTK5.10.1/IO;E:/Thesis/VTK5.10.1/Imaging;E:/Thesis/VTK5.10.1/Graphics;E:/Thesis/VTK5.10.1/GenericFiltering;E:/Thesis/VTK5.10.1/Filtering;E:/Thesis/VTK5.10.1/Common;E:/Thesis/VTK5.10.1/Utilities;E:/Thesis/VTK5.10.1/Common/Testing/Cxx;E:/Thesis/VTK5.10.1_Build1/Utilities/vtknetcdf;E:/Thesis/VTK5.10.1/Utilities/vtknetcdf;E:/Thesis/VTK5.10.1/Utilities/vtknetcdf/include;E:/Thesis/VTK5.10.1_Build1/Utilities/vtklibproj4;E:/Thesis/VTK5.10.1/Utilities/vtklibproj4;E:/Thesis/VTK5.10.1_Build1/Utilities/DICOMParser;E:/Thesis/VTK5.10.1/Utilities/DICOMParser;E:/Thesis/VTK5.10.1_Build1/Utilities/vtkfreetype/include;E:/Thesis/VTK5.10.1/Utilities/vtkfreetype/include;E:/Thesis/VTK5.10.1_Build1/Utilities/LSDyna;E:/Thesis/VTK5.10.1/Utilities/LSDyna;E:/Thesis/VTK5.10.1_Build1/Utilities/MaterialLibrary;E:/Thesis/VTK5.10.1/Utilities/MaterialLibrary;E:/Thesis/VTK5.10.1_Build1/Utilities/vtkmetaio;E:/Thesis/VTK5.10.1/Utilities/vtkmetaio;E:/Thesis/VTK5.10.1_Build1/Utilities/verdict;E:/Thesis/VTK5.10.1/Utilities/verdict;E:/Thesis/VTK5.10.1_Build1/Utilities/vtkhdf5;E:/Thesis/VTK5.10.1/Utilities/vtkhdf5;E:/Thesis/VTK5.10.1_Build1/Utilities/vtkhdf5/src;E:/Thesis/VTK5.10.1/Utilities/vtkhdf5/src;E:/Thesis/VTK5.10.1_Build1/Utilities/vtkhdf5/hl/src;E:/Thesis/VTK5.10.1/Utilities/vtkhdf5/hl/src;E:/Thesis/VTK5.10.1/Utilities/utf8/source;E:/Thesis/VTK5.10.1/GUISupport/Qt;E:/Thesis/VTK5.10.1_Build1/GUISupport/Qt;E:/Thesis/VTK5.10.1/GUISupport/Qt/Chart;E:/Thesis/VTK5.10.1_Build1/GUISupport/Qt/Chart;E:/Thesis/VTK5.10.1/Utilities/vtkalglib;C:/Qt/qt-4.8.5-x64-msvc2010/include;C:/Qt/qt-4.8.5-x64-msvc2010/include/QtGui;C:/Qt/qt-4.8.5-x64-msvc2010/include/QtCore;E:/Semester III/SideBySideRenderWindowsQt;E:/Semester III/SideBySideRenderWindowsQt/build1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\6c4db547502d7ea30aff2d505f17d38a\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HE:/Semester III/SideBySideRenderWindowsQt" "-BE:/Semester III/SideBySideRenderWindowsQt/build1" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/Semester III/SideBySideRenderWindowsQt/build1/CMakeFiles/6c4db547502d7ea30aff2d505f17d38a/generate.stamp.rule;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeImportBuildSettings.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCXXSymbolExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindQt4.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindVTK.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\MacroAddFileDependencies.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4ConfigDependentSettings.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4Macros.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\UseQt4.cmake;E:\Semester III\SideBySideRenderWindowsQt\CMakeLists.txt;E:\Semester III\SideBySideRenderWindowsQt\build1\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;E:\Semester III\SideBySideRenderWindowsQt\build1\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;E:\Semester III\SideBySideRenderWindowsQt\build1\CMakeFiles\2.8.11.2\CMakeRCCompiler.cmake;E:\Semester III\SideBySideRenderWindowsQt\build1\CMakeFiles\2.8.11.2\CMakeSystem.cmake;E:\Thesis\VTK5.10.1\CMake\vtkMakeInstantiator.cmake;E:\Thesis\VTK5.10.1_Build1\UseVTK.cmake;E:\Thesis\VTK5.10.1_Build1\VTKConfig.cmake;E:\Thesis\VTK5.10.1_Build1\VTKConfigQt.cmake;E:\Thesis\VTK5.10.1_Build1\VTKConfigVersion.cmake;E:\Thesis\VTK5.10.1_Build1\VTKTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Semester III\SideBySideRenderWindowsQt\build1\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HE:/Semester III/SideBySideRenderWindowsQt" "-BE:/Semester III/SideBySideRenderWindowsQt/build1" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/Semester III/SideBySideRenderWindowsQt/build1/CMakeFiles/6c4db547502d7ea30aff2d505f17d38a/generate.stamp.rule;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeImportBuildSettings.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCXXSymbolExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindQt4.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindVTK.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\MacroAddFileDependencies.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4ConfigDependentSettings.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4Macros.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\UseQt4.cmake;E:\Semester III\SideBySideRenderWindowsQt\CMakeLists.txt;E:\Semester III\SideBySideRenderWindowsQt\build1\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;E:\Semester III\SideBySideRenderWindowsQt\build1\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;E:\Semester III\SideBySideRenderWindowsQt\build1\CMakeFiles\2.8.11.2\CMakeRCCompiler.cmake;E:\Semester III\SideBySideRenderWindowsQt\build1\CMakeFiles\2.8.11.2\CMakeSystem.cmake;E:\Thesis\VTK5.10.1\CMake\vtkMakeInstantiator.cmake;E:\Thesis\VTK5.10.1_Build1\UseVTK.cmake;E:\Thesis\VTK5.10.1_Build1\VTKConfig.cmake;E:\Thesis\VTK5.10.1_Build1\VTKConfigQt.cmake;E:\Thesis\VTK5.10.1_Build1\VTKConfigVersion.cmake;E:\Thesis\VTK5.10.1_Build1\VTKTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Semester III\SideBySideRenderWindowsQt\build1\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HE:/Semester III/SideBySideRenderWindowsQt" "-BE:/Semester III/SideBySideRenderWindowsQt/build1" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/Semester III/SideBySideRenderWindowsQt/build1/CMakeFiles/6c4db547502d7ea30aff2d505f17d38a/generate.stamp.rule;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeImportBuildSettings.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCXXSymbolExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindQt4.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindVTK.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\MacroAddFileDependencies.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4ConfigDependentSettings.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4Macros.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\UseQt4.cmake;E:\Semester III\SideBySideRenderWindowsQt\CMakeLists.txt;E:\Semester III\SideBySideRenderWindowsQt\build1\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;E:\Semester III\SideBySideRenderWindowsQt\build1\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;E:\Semester III\SideBySideRenderWindowsQt\build1\CMakeFiles\2.8.11.2\CMakeRCCompiler.cmake;E:\Semester III\SideBySideRenderWindowsQt\build1\CMakeFiles\2.8.11.2\CMakeSystem.cmake;E:\Thesis\VTK5.10.1\CMake\vtkMakeInstantiator.cmake;E:\Thesis\VTK5.10.1_Build1\UseVTK.cmake;E:\Thesis\VTK5.10.1_Build1\VTKConfig.cmake;E:\Thesis\VTK5.10.1_Build1\VTKConfigQt.cmake;E:\Thesis\VTK5.10.1_Build1\VTKConfigVersion.cmake;E:\Thesis\VTK5.10.1_Build1\VTKTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Semester III\SideBySideRenderWindowsQt\build1\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HE:/Semester III/SideBySideRenderWindowsQt" "-BE:/Semester III/SideBySideRenderWindowsQt/build1" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/Semester III/SideBySideRenderWindowsQt/build1/CMakeFiles/6c4db547502d7ea30aff2d505f17d38a/generate.stamp.rule;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeImportBuildSettings.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCXXSymbolExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindQt4.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindVTK.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\MacroAddFileDependencies.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4ConfigDependentSettings.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4Macros.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\UseQt4.cmake;E:\Semester III\SideBySideRenderWindowsQt\CMakeLists.txt;E:\Semester III\SideBySideRenderWindowsQt\build1\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;E:\Semester III\SideBySideRenderWindowsQt\build1\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;E:\Semester III\SideBySideRenderWindowsQt\build1\CMakeFiles\2.8.11.2\CMakeRCCompiler.cmake;E:\Semester III\SideBySideRenderWindowsQt\build1\CMakeFiles\2.8.11.2\CMakeSystem.cmake;E:\Thesis\VTK5.10.1\CMake\vtkMakeInstantiator.cmake;E:\Thesis\VTK5.10.1_Build1\UseVTK.cmake;E:\Thesis\VTK5.10.1_Build1\VTKConfig.cmake;E:\Thesis\VTK5.10.1_Build1\VTKConfigQt.cmake;E:\Thesis\VTK5.10.1_Build1\VTKConfigVersion.cmake;E:\Thesis\VTK5.10.1_Build1\VTKTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Semester III\SideBySideRenderWindowsQt\build1\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\6c4db547502d7ea30aff2d505f17d38a\ZERO_CHECK.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/Semester III/SideBySideRenderWindowsQt/build1/CMakeFiles/6c4db547502d7ea30aff2d505f17d38a/ZERO_CHECK.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Semester III\SideBySideRenderWindowsQt\build1\CMakeFiles\ZERO_CHECK</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/Semester III/SideBySideRenderWindowsQt/build1/CMakeFiles/6c4db547502d7ea30aff2d505f17d38a/ZERO_CHECK.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Semester III\SideBySideRenderWindowsQt\build1\CMakeFiles\ZERO_CHECK</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/Semester III/SideBySideRenderWindowsQt/build1/CMakeFiles/6c4db547502d7ea30aff2d505f17d38a/ZERO_CHECK.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Semester III\SideBySideRenderWindowsQt\build1\CMakeFiles\ZERO_CHECK</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/Semester III/SideBySideRenderWindowsQt/build1/CMakeFiles/6c4db547502d7ea30aff2d505f17d38a/ZERO_CHECK.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Semester III\SideBySideRenderWindowsQt\build1\CMakeFiles\ZERO_CHECK</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\ZERO_CHECK" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

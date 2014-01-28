@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\SideBySideRenderWindowsQt.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SideBySideRenderWindowsQtDriver.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_SideBySideRenderWindowsQt.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ui_SideBySideRenderWindowsQt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_SideBySideRenderWindowsQt1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\CMakeLists.txt" />
+    <CustomBuild Include="..\SideBySideRenderWindowsQt.ui" />
+    <CustomBuild Include="..\SideBySideRenderWindowsQt1.ui" />
+    <CustomBuild Include="CMakeFiles\41cf858fb71d10b6fd597cde793765b2\moc_SideBySideRenderWindowsQt.cxx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EE94D2BA-1131-4546-BFA6-B3F0D90DAB54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0FE91B46-7EDF-40A4-BBFA-4BF58B19A96E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4E74E7E3-5E40-4FE6-8EE5-1B68F30BD614}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
