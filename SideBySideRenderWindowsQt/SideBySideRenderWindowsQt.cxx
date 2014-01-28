@@ -605,7 +605,7 @@ SideBySideRenderWindowsQt::SideBySideRenderWindowsQt()
   float dR = rightCamera->GetDistance();
   cout<<"dr : "<<dR<<endl;
   rightCamera->SetParallelScale(0.5f*static_cast<float>(ydR));
-  cout<<"Parallel Scakle right: "<<rightCamera->GetParallelScale();
+  cout<<"Parallel Scale right: "<<rightCamera->GetParallelScale();
   //camera->SetFocalPoint(xc,yc,0.0);
   //camera->SetPosition(xc,yc,+d);
  rightCamera->SetFocalPoint(xcR,0,zcR);
